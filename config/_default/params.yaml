@@ -15,8 +15,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'Guillem Foucault i Llopart academic websiste. Guillem is a PhD candidate in the academic job market 2025-2026'
+    org_name: 'Toulouse School of Economics'
+    description: 'I am a PhD candidate at the Toulouse School of economics. My work covers topics related to education and labour economics. In particular, I am interested in how funding instruments and educational tracks affect students decisions and labour market outcomes.'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -25,7 +25,7 @@ marketing:
     fathom: ''
     pirsch: ''
   verification:
-    google: ''
+    google: 'google3721e2d8d0451a41'
     baidu: ''
 
 # Site header
