@@ -1,6 +1,6 @@
-baseURL = 'https://mariebeigelman.com/'
+baseURL = 'https://gfill.github.io/'
 languageCode = 'en-us'
-title = 'Marie Beigelman'
+title = 'Guillem Foucault'
 theme = 'gruvhugo'
 
 
@@ -26,7 +26,7 @@ enableGitInfo = true
 [params.main]
   enabled = true
   enableKatex = true
-  headerTitle = "Marie Beigelman"
+  headerTitle = "Guillem Foucault"
   name = "marie_beigelman"
  description = '''
   I am an applied economist working in <u>Economic History, Development and Political Economy</u>. I am currently a research fellow at <b>IAST - Toulouse School of Economics</b> and will join <b>King's College London as an Assistant Professor</b> (Department of Political Economy) in 2025.<br><br>
