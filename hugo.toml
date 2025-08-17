@@ -37,10 +37,6 @@ enableGitInfo = true
   
   Don't hesitate to contact me at guillem.foucault[at]tse[slash]fr[dot]com. You can find my resume <a href="/resume.pdf" target="_blank">here</a>.
   <br><br> 
-
-  [params.main.button]
-    text = "Download CV"
-    url  = "/resume.pdf"
   
   <b>References:</b>
   <a href="https://sites.google.com/view/olivierdegroote">Olivier De Groote</a>, 
@@ -52,6 +48,10 @@ enableGitInfo = true
   licenseUrl = ""
  # homeContent = "content/_index"  # Add this line to specify the about page content for the home page
 img = "images/profile.jpg"
+
+  [params.main.button]
+    text = "Download CV"
+    url  = "/resume.pdf"
  
  # Social icons
   [[params.social]]
