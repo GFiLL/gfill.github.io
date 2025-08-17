@@ -23,6 +23,10 @@ enableGitInfo = true
   category = "categories"
   series   = "series"
 
+
+[params.style]
+  custom_scss = ["css/custom.scss"]
+
 [params.main]
   enabled = true
   enableKatex = true
@@ -31,11 +35,19 @@ enableGitInfo = true
  description = '''
   I am a PhD candidate at the <b>Toulouse School of economics</b>. My work covers topics related to <u>education and labor economics</u>. In particular, I am interested in how funding instruments and educational tracks affect students decisions and labour market outcomes.<br><br> 
   
-  Don't hesitate to contact me at guillem.foucault[at]tse[slash]fr[dot]com.<br>
+  Don't hesitate to contact me at guillem.foucault[at]tse[slash]fr[dot]com. You can find my resume <a href="/resume.pdf" target="_blank">here</a>.
+  <br><br> 
+
+  [params.main.button]
+    text = "Download CV"
+    url  = "/resume.pdf"
   
   <b>References:</b>
   <a href="https://sites.google.com/view/olivierdegroote">Olivier De Groote</a>, 
   <a href="https://sites.google.com/site/amgazmuri/home">Ana Gazmuri</a>
+  <br><br>  
+
+
   '''
   licenseUrl = ""
  # homeContent = "content/_index"  # Add this line to specify the about page content for the home page

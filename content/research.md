@@ -28,6 +28,13 @@ draft = false
 
 <summary> <b>Click for abstract </b></summary>
 This paper examines the effects of Free College policies on student enrollment and academic performance, with a focus on the 2016 Chilean reform that granted tuition-free higher education to students from the lowest five income deciles. Using a difference-in-differences approach, we find that Free College increased enrollment and persistence in higher education but had modest effects on graduation and dropout rates. To disentangle the role of student effort from selection effects, we develop a structural model in which students choose effort levels in response to financial incentives. Our results highlight that Free College expanded access, in particular for low-achieving students. Despite the removal of academic progress requirements, we found no evidence of weakening performance.
+</details>
+
+
+---
+
+
+## Working Papers ##
 
 
  **Differences in returns to vocational and general education: evidence from a differentiated schooling system**, joint with François Poinas

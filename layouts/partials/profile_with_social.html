@@ -1,8 +1,23 @@
-<div class="profile-with-social" style="display: flex; flex-direction: column; align-items: center;">
-    <div class="image-content" style="flex: 0 0 auto; margin-right: 50px;"></div><!-- Space below the image -->
-        <img class="image" src='{{ .Site.Params.main.img | absURL }}' 
-             style="max-width: auto; height: auto; border-radius: 100px;"/>
+<div class="profile-with-social" style="display:flex; flex-direction:column; align-items:center;">
+
+  <div class="image-content" style="flex:0 0 auto; margin-right:50px;">
+    <img class="image" src='{{ .Site.Params.main.img | absURL }}'
+         style="max-width:auto; height:auto; border-radius:100px;" />
+  </div>
+
+  <!-- About text -->
+  {{ with .Site.Params.main.description }}
+    <div class="about-text">
+      {{ . | safeHTML }}
     </div>
-        {{ partial "footer.html" . }} <!-- Include the footer partial for social icons -->
-    </div>
+  {{ end }}
+
+  <!-- CV button -->
+  {{ with site.Params.main.button }}
+    <p class="about-actions">
+      <a class="cta-btn" href="{{ .url }}" target="_blank" rel="noopener">{{ .text }}</a>
+    </p>
+  {{ end }}
+
+  {{ partial "footer.html" . }}
 </div>
