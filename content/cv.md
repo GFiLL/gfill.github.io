@@ -4,7 +4,7 @@ date = 2024-05-27T12:15:04+02:00
 draft = false
 +++
 
-*For a detailed version of my resume, [click here](https://www.dropbox.com/scl/fi/dgxmiolgiwfhvipp4wsll/Beigelman_CV.pdf?rlkey=5vl5yqpbn3du3rfk1neokg3xm&dl=0)*
+*For a detailed version of my resume, [click here](/static/resume.pdf)*
 
 <!--
 https://www.dropbox.com/scl/fi/fpwyw3d77xo4kqvx7v0t5/CV_BEIGELMAN.pdf?rlkey=ojepg8vbku3wr65c1jr41pxsv&dl=0
