@@ -278,7 +278,7 @@ p, li {
     width: 100%; /* Allow the image to scale with its container */
     height: auto; /* Maintain aspect ratio */
     max-width: 350px; /* Maximum width to prevent it from being too large */
-    border-radius: 0%; /* Keep the rounded shape (originally 50, changed to 5) */
+    border-radius: 5%; /* Keep the rounded shape (originally 50, changed to 5) */
     margin: 40px; /* Optional margin */
 }
 
