@@ -33,7 +33,7 @@ enableGitInfo = true
   headerTitle = "Guillem Foucault"
   name = "guillem_foucault"
  description = '''
-  I am a PhD candidate at the <b>Toulouse School of economics</b>. My work covers topics related to <u>education and labor economics</u>. In particular, I am interested in how funding instruments and educational tracks affect students decisions and labour market outcomes.<br><br> 
+  I am a PhD candidate at the <b>Toulouse School of economics</b>. My work covers topics related to <u>education and labor economics</u>. In particular, I am interested in how funding instruments and educational tracks affect students decisions and labor market outcomes.<br><br> 
   
   Don't hesitate to contact me at guillem.foucault[at]tse[slash]fr[dot]com. You can find my resume <a href="/resume.pdf" target="_blank">here</a>.
   <br><br> 
@@ -49,9 +49,9 @@ enableGitInfo = true
  # homeContent = "content/_index"  # Add this line to specify the about page content for the home page
 img = "images/profile.jpg"
 
-  [params.main.button]
-    text = "Download CV"
-    url  = "/resume.pdf"
+[params.main.button]
+  text = "Download CV"
+  url  = "/resume.pdf"
  
  # Social icons
   [[params.social]]
