@@ -1,6 +1,6 @@
 +++
 title = 'CV'
-date = 2024-05-27T12:15:04+02:00
+date = 2025-09-27T12:15:04+02:00
 draft = false
 +++
 
@@ -19,13 +19,13 @@ https://www.dropbox.com/scl/fi/fpwyw3d77xo4kqvx7v0t5/CV_BEIGELMAN.pdf?rlkey=ojep
 
 ## Education ##
 
-* 2020 - 2024 : PhD in Economics, University of Barcelona -
-                *Essays on Violence, Health and Family Dynamics (cum laude)*
-* 2023 [spring] : Visiting student at UBC, with Nathan Nunn
-* 2022 [spring] : Visiting student at LSE, with Camille Landais; at AMSE, with Roberta Ziparo
-* 2015-2016 : MRes in Public Policy and Development, Paris School of Economics
-* 2012-2016 : Engineering degree in Statistics, ENSAE ParisTech
-* 2010-2012 : Preparatory Class (*Classe Préparatoire*) in Social Sciences, Lycée Lakanal
+* 2020 - 2025 [expected] : PhD in Economics, Toulouse School of Economics
+    * 2025 [spring] : Visiting student at University of Pennsylvania
+* 2021-2022: MRes. in Economics, Toulouse School of Economics
+* 2020 - 2021 : MSc. in Economic Theory and Econometrics, Toulouse School of Economics
+* 2019 - 2020 : MSc. in Economics, Toulouse School of Economics
+* 2013 - 2017 : BSc. in Economics, Universitat Pompeu Fabra
+    * 2015 [fall] : Visiting Student, Aalto-yliopisto
 
 
 ---
