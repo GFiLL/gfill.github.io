@@ -33,10 +33,8 @@ https://www.dropbox.com/scl/fi/fpwyw3d77xo4kqvx7v0t5/CV_BEIGELMAN.pdf?rlkey=ojep
 
 ## Teaching ##
 
-* 2021-2023 : Lecturer, University of Barcelona (Principles of taxation)
-* 2019-2020 : Teaching assistant, University Pompeu Fabra (Public Economics, Introduction to Economics)
-* 2015-2016 : Teaching assistant in Statistics, University Paris Descartes (double degree Law-Economics)
-* 2012-2013 :  Oral examinator (*colleuse*) in Mathematics for Preparatory class students, Lycee Lakanal
+* Graduate : Program Evaluation (TA coordinator), Applied Econometrics
+* Undergraduate: Microeconomics I, Macroeconomics II
 
 ---
 
@@ -51,6 +49,6 @@ https://www.dropbox.com/scl/fi/fpwyw3d77xo4kqvx7v0t5/CV_BEIGELMAN.pdf?rlkey=ojep
 
 ## Presentations ##
 
-* 2023: NEUDC 2023, Harvard (Upcoming); PSE Economic History Seminar; UBC Dev/Pol Econ Internal Seminar; QMUL Graduate Workshop; CESC Conference
+* 2025: UPenn Empirical Micro Lunch, ENTER Stockholm Jamboree, TSE Economics of Education Workshop, EEA Bordeaux, Simposio de la Asociación Española de Economía (upcoming)
 * 2022: STICERD/IFS/UCL Development WIP; LSE Graduate Economic History Seminar; EuHEA (Oslo); LAGV (Marseille): QPE Workshop (Kings’ College London); AMSE Development WIP 
 * 2021: European Society for Population Economics;IRDES-Dauphine Workshop on Applied Health Economics and Policy Evaluation; Taller EvaluAES; EuHEA PhD-supervisor Conference; European Association of Labour Economics (EALE); 46th Simposio de la Asociación Española de Economía-Spanish Economic Association (SAEe) 
