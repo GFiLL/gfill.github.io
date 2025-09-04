@@ -38,17 +38,8 @@ https://www.dropbox.com/scl/fi/fpwyw3d77xo4kqvx7v0t5/CV_BEIGELMAN.pdf?rlkey=ojep
 
 ---
 
-## Work experience ## 
 
-* 2019-2020 : Pre-doctoral researcher at the CRES-UPF (Center of Research in Health economics, University Pompeu-Fabra)
-* 2017-2019 : Economist, Quadrat-Etudes, Paris, France
-* 2016 : Journalist (internship), Alternatives Economiques  
-
----
-
-
-## Presentations ##
+<!-- ## Presentations ##
 
 * 2025: UPenn Empirical Micro Lunch, ENTER Stockholm Jamboree, TSE Economics of Education Workshop, EEA Bordeaux, Simposio de la Asociación Española de Economía (upcoming)
-* 2022: STICERD/IFS/UCL Development WIP; LSE Graduate Economic History Seminar; EuHEA (Oslo); LAGV (Marseille): QPE Workshop (Kings’ College London); AMSE Development WIP 
-* 2021: European Society for Population Economics;IRDES-Dauphine Workshop on Applied Health Economics and Policy Evaluation; Taller EvaluAES; EuHEA PhD-supervisor Conference; European Association of Labour Economics (EALE); 46th Simposio de la Asociación Española de Economía-Spanish Economic Association (SAEe) 
+* 2024: TSE Economics of Education Workshop. -->
