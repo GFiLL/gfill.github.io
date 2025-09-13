@@ -89,6 +89,25 @@ body.dark {
         color: $dark-color;
         background: $light-color;
     }
+    .nav {
+            --link-text-color: #076678; // Same blue as social links
+            
+            a {
+                color: #076678;
+            }
+            
+            a:hover {
+                color: #076678;
+            }
+            
+            a::after {
+                border: 2px solid #3c3836; // Darker border for dark mode
+            }
+            
+            a:hover::after {
+                border: 2px solid #076678; // Blue border on hover
+            }
+        }
 }
 
 .verbatim{
