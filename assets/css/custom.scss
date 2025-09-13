@@ -313,20 +313,20 @@ p, li {
 .image {
     width: 100%;
     height: auto;
-    max-width: 350px;
-    min-width: 200px; // Prevent image from getting too small
+    max-width: 280px; // Reduced from 350px
+    min-width: 150px; // Reduced from 200px
     border-radius: 5%;
     margin: 40px;
     
     @media screen and (max-width: 768px) {
         margin: 20px auto;
-        max-width: 250px;
-        min-width: 150px;
+        max-width: 200px; // Reduced from 250px
+        min-width: 120px; // Reduced from 150px
     }
     
     @media screen and (max-width: 480px) {
         margin: 15px auto;
-        max-width: 200px;
+        max-width: 160px; // Reduced from 200px
     }
 }
 
