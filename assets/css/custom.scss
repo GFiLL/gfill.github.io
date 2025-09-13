@@ -250,20 +250,37 @@ p, li {
     flex-direction: column;
     width: 60%;
     margin: auto;
+    
+    // Better mobile responsiveness
+    @media screen and (max-width: 768px) {
+        width: 95%;
+        padding: 0 10px;
+    }
 }
 
 .intro {
     display: flex;
-    // flex-direction: column;
     align-items: flex-start;
+    gap: 20px; // Add gap between image and text
+    
+    // Stack vertically on mobile
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 .intro p {
     text-align: justify;
+    
+    @media screen and (max-width: 768px) {
+        text-align: left; // Better readability on mobile
+    }
 }
 
 .text-content {
-  flex: 1; /* Take up the remaining space */
+    flex: 1;
 }
 
 .intro-quote {
@@ -275,11 +292,23 @@ p, li {
 }
 
 .image {
-    width: 100%; /* Allow the image to scale with its container */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 350px; /* Maximum width to prevent it from being too large */
-    border-radius: 5%; /* Keep the rounded shape (originally 50, changed to 5) */
-    margin: 40px; /* Optional margin */
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    min-width: 200px; // Prevent image from getting too small
+    border-radius: 5%;
+    margin: 40px;
+    
+    @media screen and (max-width: 768px) {
+        margin: 20px auto;
+        max-width: 250px;
+        min-width: 150px;
+    }
+    
+    @media screen and (max-width: 480px) {
+        margin: 15px auto;
+        max-width: 200px;
+    }
 }
 
 html.contrast body {
@@ -460,19 +489,50 @@ code {
 @media screen and (max-width: 1024px) {
     html {
         font-size: 1em; 
-        }
-                .main {
+    }
+    
+    .main {
         width: 90%;
     }
+    
     .tags, .post-title {
         margin: 0;
     }
-    .post-header{
+    
+    .post-header {
         flex-wrap: wrap;
     }
+    
     #footer p,
     .intro-quote {
         width: 90%;
+    }
+    
+    // Additional mobile-specific adjustments
+    .intro {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .image {
+        margin: 20px auto;
+    }
+}
+
+// Additional mobile breakpoint for very small screens
+@media screen and (max-width: 480px) {
+    .main {
+        width: 98%;
+        padding: 0 5px;
+    }
+    
+    body {
+        padding: 0 5px;
+    }
+    
+    .image {
+        max-width: 180px;
+        margin: 15px auto;
     }
 }
 
