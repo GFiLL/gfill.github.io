@@ -90,14 +90,14 @@ body.dark {
         background: $light-color;
     }
     .nav {
-            --link-text-color: #076678; // Same blue as social links
+            --link-text-color: white; // Same blue as social links
             
             a {
-                color: #076678;
+                color: white;
             }
             
             a:hover {
-                color: #076678;
+                color: white;
             }
             
             a::after {
