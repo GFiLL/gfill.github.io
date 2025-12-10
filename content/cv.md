@@ -19,7 +19,7 @@ https://www.dropbox.com/scl/fi/fpwyw3d77xo4kqvx7v0t5/CV_BEIGELMAN.pdf?rlkey=ojep
  -->
 ## Education ##
 
-* 2022 - 2026 [expected] : PhD in Economics, Toulouse School of Economics
+* 2022 - 2027 [expected] : PhD in Economics, Toulouse School of Economics
     * 2025 [spring] : Visiting student at University of Pennsylvania
 * 2021-2022: MRes. in Economics, Toulouse School of Economics
 * 2020 - 2021 : MSc. in Economic Theory and Econometrics, Toulouse School of Economics
