@@ -24,6 +24,9 @@ enableGitInfo = true
   series   = "series"
 
 
+[params]
+  googleAnalytics = "G-YHML90KBB6"
+
 [params.style]
   custom_scss = ["css/custom.scss"]
 
