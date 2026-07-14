@@ -50,6 +50,13 @@ Returns to education literature has focused on the choice of major and years of 
 
 ## Work in Progress ##
 
+ **General Equilibrium Effects of Large-Scale Education Expansions**, joint with Matteo Bobba, Olivier De Groote, Ana Gazmuri and Juan Pal
+
+<details>
+<summary> <b>Click for abstract </b></summary>
+While small-scale educational interventions provide valuable insights into effective investments, large-scale education programs may generate substantial general equilibrium (GE) effects that alter their ultimate impact on welfare and inequality. This paper analyzes the consequences of a large-scale college enrollment expansion in Chile, explicitly accounting for GE effects in both education and labor markets, to understand how firms adjust their demand for skill-biased labor in response to increased college graduate supply. The model enables us to decompose observed wage changes into individual returns to education and GE effects, revealing how firm responses shape education decisions and ultimately affect the distribution of earnings. By incorporating both household education choices and firm production decisions, this framework provides a comprehensive assessment of how large-scale education expansions affect welfare and distributional outcomes.
+</details>
+
  **Co-Residence, Housing and Labour Market Decisions**
 <details>
 <summary> <b>Click for abstract </b></summary>
