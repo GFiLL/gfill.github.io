@@ -36,14 +36,20 @@ enableGitInfo = true
   headerTitle = "Guillem Foucault"
   name = "guillem_foucault"
  description = '''
-  I am a PhD candidate at the <b>Toulouse School of economics</b>. My work covers topics related to <u>education and labor economics</u>. In particular, I am interested in how funding instruments and educational tracks affect students decisions and labor market outcomes.<br><br> 
+  I am a PhD candidate on the job market at the <b>Toulouse School of Economics</b>, under the supervision of Prof. <a href="https://sites.google.com/view/olivierdegroote">Olivier De Groote</a>. I am also an affiliate of the <a href="https://www.tse-fr.eu/human-capital-center">TSE Human Capital Center</a>.<br><br>
+
+  <b>Fields:</b> Labor Economics, Applied Microeconomics, Education Economics<br><br>
+
+  My research models the dynamic consequences of human capital decisions, combining causal methods with structural modelling for ex ante policy evaluation.<br><br>
   
   Don't hesitate to reach out at <a href="mailto:guillem.foucault@tse-fr.eu">guillem.foucault@tse-fr.eu</a>. You can find my resume <a href="/resume.pdf" target="_blank">here</a>.
   <br><br> 
   
   <b>References:</b>
-  <a href="https://sites.google.com/view/olivierdegroote">Olivier De Groote</a>, 
-  <a href="https://sites.google.com/site/amgazmuri/home">Ana Gazmuri</a>
+  <a href="https://matteobobba.github.io">Matteo Bobba</a>,
+  <a href="https://sites.google.com/view/olivierdegroote">Olivier De Groote</a>,
+  <a href="https://sites.google.com/site/amgazmuri/home">Ana Gazmuri</a>,
+  <a href="https://sites.google.com/site/francoispoinas">François Poinas</a>
   <br><br>  
 
 
