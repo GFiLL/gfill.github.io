@@ -1,24 +1,24 @@
 {{define "main"}}
 {{ partial "menu.html" . }}
 
-<section class="intro" style="display: flex; align-items: center;">
+<section class="intro">
   {{if .Site.Params.main.enabled }}
-  
-  <div class="image-content" style="display: flex; margin-right: 10px;">
-    <img class="image" src='{{ .Site.Params.main.img | absURL }}' 
-      title="{{ .Site.Params.main.img_title }}" 
+
+  <div class="image-content">
+    <img class="image" src='{{ .Site.Params.main.img | absURL }}'
+      title="{{ .Site.Params.main.img_title }}"
       alt="Picture by StudioTchiz" />
   </div>
   {{end}}
 
-  
+
   <div class="text-content" style="flex: 1;">
-    <h2> </h2>
+    {{ with .Site.Params.main.quote }}
     <ul>
-      <li class="intro-quote">{{ .Site.Params.main.quote }}</li>
+      <li class="intro-quote">{{ . }}</li>
     </ul>
+    {{ end }}
     <p>{{ .Site.Params.main.description | safeHTML }}</p>
   </div>
 </section>
 {{end}}
-

@@ -36,7 +36,7 @@ enableGitInfo = true
   headerTitle = "Guillem Foucault"
   name = "guillem_foucault"
  description = '''
-  I am a PhD candidate on the job market at the <b>Toulouse School of Economics</b>, under the supervision of Prof. <a href="https://sites.google.com/view/olivierdegroote">Olivier De Groote</a>. I am also an affiliate of the <a href="https://www.tse-fr.eu/human-capital-center">TSE Human Capital Center</a>.<br><br>
+  I am a PhD candidate on the job market at the <b>Toulouse School of Economics</b>, under the supervision of Prof. <a href="https://sites.google.com/view/olivierdegroote">Olivier De Groote</a> and Prof. <a href="https://matteobobba.github.io">Matteo Bobba</a>. I am also an affiliate of the <a href="https://www.tse-fr.eu/human-capital-center">TSE Human Capital Center</a>.<br><br>
 
   <b>Fields:</b> Labor Economics, Applied Microeconomics, Education Economics<br><br>
 
@@ -54,7 +54,7 @@ enableGitInfo = true
   '''
   licenseUrl = ""
  # homeContent = "content/_index"  # Add this line to specify the about page content for the home page
-img = "images/profile.jpg"
+img = "images/profile2026.jpg"
 
 [params.main.button]
   text = "Download CV"
