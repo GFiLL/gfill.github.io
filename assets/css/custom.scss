@@ -281,6 +281,7 @@ p, li {
     display: flex;
     align-items: flex-start;
     gap: 20px; // Add gap between image and text
+    margin-top: 40px; // Space below the menu
     
     // Stack vertically on mobile
     @media screen and (max-width: 768px) {
