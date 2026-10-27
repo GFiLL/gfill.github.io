@@ -355,7 +355,7 @@ p, li {
         min-width: 0;
         margin: 0;
         object-fit: cover;
-        object-position: center 20%;
+        object-position: center bottom; // any cropping happens above the head
     }
 }
 

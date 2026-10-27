@@ -21,4 +21,32 @@
     <p>{{ .Site.Params.main.description | safeHTML }}</p>
   </div>
 </section>
+
+<script>
+  // On desktop, size the picture column from the text height so the photo keeps
+  // its aspect ratio (no side cropping; at most a sliver trimmed above the head).
+  (function () {
+    var box = document.querySelector('.intro .image-content');
+    var img = box && box.querySelector('img');
+    var text = document.querySelector('.intro .text-content');
+    if (!img || !text) return;
+
+    function fit() {
+      if (!window.matchMedia('(min-width: 1025px)').matches || !img.naturalHeight) {
+        box.style.flexBasis = '';
+        return;
+      }
+      var ratio = img.naturalWidth / img.naturalHeight;
+      // Widening the photo narrows the text and makes it taller, so iterate a few times.
+      // The 1% margin errs on the photo being a hair taller than the text, so any crop is a
+      // sliver of space above the head rather than the sides.
+      for (var i = 0; i < 4; i++) {
+        box.style.flexBasis = Math.ceil(text.offsetHeight * ratio * 1.01) + 'px';
+      }
+    }
+
+    if (img.complete) fit(); else img.addEventListener('load', fit);
+    window.addEventListener('resize', fit);
+  })();
+</script>
 {{end}}
