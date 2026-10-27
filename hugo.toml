@@ -55,6 +55,7 @@ enableGitInfo = true
   licenseUrl = ""
  # homeContent = "content/_index"  # Add this line to specify the about page content for the home page
 img = "images/profile2026.jpg"
+copyright = "&copy; 2026 Guillem Foucault"
 
 [params.main.button]
   text = "Download CV"

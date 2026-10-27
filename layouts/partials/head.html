@@ -31,7 +31,9 @@
     </script>
     {{ end }}
     <meta name="keywords" content="{{ .Site.Params.main.metaKeywords }}">
-    <link rel="icon" type="image/svg" href='{{ .Site.Params.main.icon | absURL }}' />
+    <link rel="icon" href="{{ "images/favicon.ico" | relURL }}" sizes="any">
+    <link rel="icon" href="{{ "images/gf-logo.svg" | relURL }}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ "images/gf-logo.png" | relURL }}">
     <meta name="author" content='{{ .Site.Params.main.name }}'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ hugo.Generator }}
