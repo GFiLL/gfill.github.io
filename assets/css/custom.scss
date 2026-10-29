@@ -267,7 +267,8 @@ p, li {
 .main {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    // Use most of the screen on laptops, but don't stretch too wide on big monitors
+    width: min(90%, 1100px);
     margin: auto;
     
     // Better mobile responsiveness
@@ -357,6 +358,16 @@ p, li {
         margin: 0;
         object-fit: cover;
         object-position: center bottom; // any cropping happens above the head
+    }
+
+    // Photo hit its maximum width (set in index.html): keep its natural proportions
+    .image-content.capped {
+        align-self: flex-start;
+    }
+
+    .image-content.capped .image {
+        position: static;
+        height: auto;
     }
 }
 

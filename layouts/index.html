@@ -29,20 +29,30 @@
     var box = document.querySelector('.intro .image-content');
     var img = box && box.querySelector('img');
     var text = document.querySelector('.intro .text-content');
+    var intro = document.querySelector('.intro');
     if (!img || !text) return;
 
     function fit() {
       if (!window.matchMedia('(min-width: 1025px)').matches || !img.naturalHeight) {
         box.style.flexBasis = '';
+        box.classList.remove('capped');
         return;
       }
       var ratio = img.naturalWidth / img.naturalHeight;
+      // Never let the photo take more than 40% of the row: on narrower screens the text gets
+      // tall, and matching its height would make the photo overflow the page.
+      var maxWidth = Math.floor(intro.clientWidth * 0.4);
       // Widening the photo narrows the text and makes it taller, so iterate a few times.
       // The 1% margin errs on the photo being a hair taller than the text, so any crop is a
       // sliver of space above the head rather than the sides.
+      var capped = false;
       for (var i = 0; i < 4; i++) {
-        box.style.flexBasis = Math.ceil(text.offsetHeight * ratio * 1.01) + 'px';
+        var width = Math.ceil(text.offsetHeight * ratio * 1.01);
+        capped = width > maxWidth;
+        box.style.flexBasis = Math.min(width, maxWidth) + 'px';
       }
+      // When capped, show the photo at its natural proportions instead of stretching it.
+      box.classList.toggle('capped', capped);
     }
 
     if (img.complete) fit(); else img.addEventListener('load', fit);
