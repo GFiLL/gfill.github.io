@@ -14,6 +14,13 @@ draft = false
 
 <!--<img src="https://mariebeigelman.github.io/pictures/coverpic3.jpg" align="center" width="40%" height="20%">-->
 
+<h1 class="research-title">Research</h1>
+<nav class="research-links">
+<a href="https://scholar.google.com/citations?user=yiJvMAsAAAAJ&hl=ca&oi=ao" target="_blank">Google Scholar</a>
+<span class="sep">·</span>
+<a href="https://orcid.org/0009-0001-8569-8131" target="_blank">ORCID</a>
+</nav>
+
 
 ---
 

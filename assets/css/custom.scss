@@ -744,4 +744,27 @@ body.dark {
 }
 
 .paper-venue { color: #6b6b6b; }
+.paper-venue + details.paper-abstract { margin-left: 16px; }
 body.dark .paper-venue { color: #a8a8a8; }
+
+/* Research page header: title + profile links */
+.research-title {
+    color: $dark-color;
+    font-weight: 600;
+    margin: 10px 0 6px;
+}
+.research-links {
+    a {
+        color: $primary-accent-color;
+        text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .sep {
+        color: #6b6b6b;
+        margin: 0 8px;
+    }
+}
+body.dark {
+    .research-title { color: $light-color; }
+    .research-links a { color: $secondary-accent-color; }
+}
