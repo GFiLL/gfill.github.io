@@ -19,9 +19,6 @@
     <div class="line" id="scrollIndicator"></div>
     <div class="main">
       {{- partial "header.html" . -}} 
-      {{ if not .IsHome }}
-        {{- partial "menu.html" . -}} <!-- Include menu at the top for non-home pages -->
-      {{ end }}
     <!-- removed header, it is only my name :  --> 
       {{- block "main" . }}{{- .Content }}{{- end }}
       {{ if .IsHome }}
