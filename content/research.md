@@ -79,7 +79,12 @@ Young Spaniards leave the parental home at around 30, among the latest ages in E
 
 
 
-## Other  ##
+## Policy Work ##
 
-* Non peer-reviewed articles.
+ **Background Note on Bringing Climate Change into Vulnerability Analysis**, joint with Sandra Baquié, World Bank, 2023 ([Link](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099719410242336767))
+
+<details>
+<summary> <b>Click for abstract </b></summary>
+Weather vulnerability is often assessed using historical data, but this can be very misleading in a world of changing climate. Weather refers to short-term atmospheric conditions, while climate is the weather averaged over a long period. With climate change, some places are becoming wetter, some drier, and extreme weather events, such as heatwaves, floods, droughts, and tropical cyclones, are becoming more likely. Hence, the nature of weather risks will vary considerably. Despite the magnitude of this shift, there is currently no widely accepted method for bringing climate change into catastrophe risk modeling. The objective of this note is to review, compare, and contrast the different techniques used in this literature to include climate change into vulnerability analysis. To do so, it summarizes recent research papers exploring how to bring climate change into catastrophe risk modeling. The note builds on this review to propose and explain a robust methodology and highlight its potential caveats. As such, this note is a first step towards unifying approaches and disseminating the analysis of climate change in vulnerability analysis. The method proposed in this note can be applied by researchers, economists, and public policy practitioners to study a wide range of topics, from the impact of climate change on diseases to stress-testing social protection programs.
+</details>
 
