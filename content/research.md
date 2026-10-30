@@ -41,7 +41,7 @@ This paper examines the effects of Free College policies on student enrollment a
 
 <details>
 <summary> <b>Click for abstract </b></summary>
-Returns to education literature has focused on the choice of major and years of schooling, but vocational education tracks have attracted less attention. In this paper, we study how the type of post-secondary education (general vs. vocational) affects occupational choices and wages in Germany. To do so, we develop a dynamic model of education and occupation choices, accounting for unobserved multidimensional ability. We find that after controlling for sorting of individuals with high cognitive ability in general tracks, non-cognitive ability can explain heterogeneity in wages.
+The literature on returns to education has focused on years of schooling and fields of study, and less on whether post-secondary education is vocational or academic. We study how this choice affects occupations and wages in Germany. We estimate a dynamic semi-structural model of completed post-secondary education and first occupation choice, using the German Socio-Economic Panel. Occupations are described by their cognitive, interpersonal and manual task content, and selection runs through latent cognitive and non-cognitive abilities. Cognitive ability strongly predicts post-secondary attainment, especially university, while non-cognitive ability plays no role once cognitive ability is accounted for. Conditional on abilities and occupational tasks, an apprenticeship raises first-job hourly wages by 11% relative to basic education, and a university degree by 45%. Vocational degrees move workers towards manual and cognitive occupations and away from interpersonal ones. This occupational sorting explains only a modest part of the wage returns to education (8 to 20%), and almost none of the gap between university and apprenticeship graduates, which arises within occupations.
 </details>
 
 
@@ -60,7 +60,7 @@ While small-scale educational interventions provide valuable insights into effec
  **Co-Residence, Housing and Labour Market Decisions**
 <details>
 <summary> <b>Click for abstract </b></summary>
-
+Young Spaniards leave the parental home at around 30, among the latest ages in Europe. In this project, I study how job insecurity, housing costs and public policy shape that decision. First, I evaluate the Renta Básica de Emancipación (2008–2011), a monthly rent subsidy for 22–30 year-olds. Exploiting its age-eligibility cutoff, I find no detectable effect of the transfer on the probability of leaving home. Second, I develop a dynamic discrete choice model in general equilibrium. In it, young people choose each year whether to stay with their parents, rent or buy, and how hard to search for a permanent job, while rents respond to housing demand. I use the model to simulate rent subsidies, mortgage guarantees and labour market reforms.
 </details>
 
 <!--  <div id="banner" style="display: flex; justify-content: space-between; align-items: center;">
