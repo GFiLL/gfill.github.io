@@ -1,4 +1,14 @@
+{{- if .IsHome }}
 <footer id="footer">
+    {{- with .Site.Params.social }}
+    <div class="social">
+        {{ partial "social.html" . }}
+    </div>
+    {{- end }}
+    <p style="color:grey; font-size:0.75em; align-self:flex-end; text-align:right;">{{ .Site.Params.main.copyright | safeHTML }}</p>
+</footer>
+{{- else }}
+<footer id="footer" class="copyright-top">
     <p class="copyright">{{ .Site.Params.main.copyright | safeHTML }}</p>
     {{- with .Site.Params.social }}
     <div class="social">
@@ -6,3 +16,4 @@
     </div>
     {{- end }}
 </footer>
+{{- end }}

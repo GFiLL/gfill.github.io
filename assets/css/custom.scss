@@ -769,8 +769,8 @@ body.dark {
     .research-links a { color: $secondary-accent-color; }
 }
 
-/* Footer: copyright sits above the separating line, icons below it */
-#footer {
+/* Inner pages footer: copyright sits above the separating line, icons below it */
+#footer.copyright-top {
     border-top: 0;
     .copyright {
         align-self: flex-end;
