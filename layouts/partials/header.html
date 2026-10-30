@@ -4,6 +4,7 @@
 	   style="text-decoration: none; color: inherit;">{{ .Site.Params.main.headerTitle }}</a></h2>
   </div>
   {{- if not .IsHome }}{{ partial "menu.html" . }}{{ end }}
+  {{- if .IsHome }}
   <div class="color-scheme">
     <input type="checkbox" class="checkbox" id="chk" />
     <label class="label" for="chk">
@@ -13,6 +14,7 @@
       <div class="ball"></div>
     </label>
   </div>
+  {{- end }}
 </div>
 <script>
   const themeSetter = (theme) => {
@@ -36,7 +38,9 @@
   }
  else localStorage.setItem('theme', 'light')
 
-  document.getElementById('chk').addEventListener('change',styleSwapper);
+  // the switch only exists on the landing page; other pages just follow the saved theme
+  const chk = document.getElementById('chk');
+  if (chk) chk.addEventListener('change', styleSwapper);
 
   window.addEventListener("scroll", () => {
       let height = document.documentElement.scrollHeight
