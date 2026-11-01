@@ -717,7 +717,7 @@ details.paper-abstract {
         list-style: none;
     }
     summary::-webkit-details-marker { display: none; }
-    summary:hover .abstract-toggle { text-decoration: underline; }
+    summary:hover:not(:has(a:hover)) .abstract-toggle { text-decoration: underline; }
     summary a { margin-left: 12px; }
     /* small CSS triangle, points down when open */
     summary::before {
